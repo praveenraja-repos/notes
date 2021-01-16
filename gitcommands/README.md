@@ -1,13 +1,3 @@
-**Git configuration:** 
-
-|Git Command | Explanation |
-|---|---|
-|git config --global user.name "property value" | add or update the values in git configuration |
-|git config --list |list all the existing configuration key value pair |
-
-<br/>
-<br/>
-    
 **Git help:**
 |Git Command | Explanation |
 |---|---|
@@ -16,6 +6,21 @@
 
 <br/>
 <br/>
+**Git configuration:** 
+
+|Git Command | Explanation |
+|---|---|
+|git config --global user.name "property value" | add or update the values in git configuration |
+|git config --list |list all the existing configuration key value pair |
+
+```
+git config --global credential.helper store
+```
+
+<br/>
+<br/>
+    
+
     
 **Important git commands:**
 ```
