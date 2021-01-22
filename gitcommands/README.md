@@ -19,9 +19,7 @@ git config --global credential.helper store
 
 <br/>
 <br/>
-    
-
-    
+      
 **Important git commands:**
 ```
 git clone <url> <where to clone path>
