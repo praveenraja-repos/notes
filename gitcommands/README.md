@@ -19,8 +19,22 @@ git config --global credential.helper store
 
 <br/>
 <br/>
+
       
 **Important git commands:**
+```
+git remote add <local_repo> <repo_name>
+```
+- Add new local repo to the remote repo
+- Eg: git remote add origin https://gitlab-ce.apps.oxygen.emea-1.rht-labs.com/aaat/flight-search.git
+---
+```
+git remote rename origin old-origin
+```
+-  Rename a repo name. 
+- Once it is rename you need to add the renamed repo to remote repo using the above command.
+- Eg: git remote rename origin old-origin
+---
 ```
 git clone <url> <where to clone path>
 ```  
