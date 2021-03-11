@@ -20,6 +20,19 @@ git config --global credential.helper store
 <br/>
 <br/>
 
+
+**Adding existing project to git**
+```
+git remote add origin <Remote path>
+
+or
+
+git remote add set-url <remote path>
+```
+
+-git remote add origin https://git.smaple.com/scm/prod/project-residency.git
+
+---
       
 **Important git commands:**
 ```
