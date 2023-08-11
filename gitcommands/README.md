@@ -62,6 +62,11 @@ git init
 - It will create a new folder called `.git`
 ---
 ```
+git fetch --all  
+```
+- To fetch the latest updates from the remote repository, including all remote branches.
+---
+```
 git commit -m "<messages>" 
 ```	
 - This will move all the files in the staging area to local repository 
